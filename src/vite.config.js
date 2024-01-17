@@ -1,5 +1,3 @@
-// https://vitejs.dev/config/
-
 import { 
   fileURLToPath, 
   URL 
