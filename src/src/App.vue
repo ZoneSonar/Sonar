@@ -3,21 +3,16 @@
     RouterLink, 
     RouterView 
   } from 'vue-router';
+
+  import Header from '@/components/globals/Header.vue';
+  import Footer from '@/components/globals/Footer.vue';
+  
 </script>
 
 <template>
-  <header>
-    <div class="wrapper">
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
-    </div>
-  </header>
+  <Header></Header>
   <main>
     <RouterView />
   </main>
-  <footer>
-    
-  </footer>
+  <Footer></Footer>
 </template>
