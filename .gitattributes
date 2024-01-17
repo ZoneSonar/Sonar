@@ -3,11 +3,8 @@
 
 # Documentation
 *.md text diff=markdown eol=crlf export-ignore
-*.tex text diff=tex
 
 # Typical used data formats
-*.csv text diff=csv
-
 *.xml text diff=xml
 *.html text diff=html
 *.vue text diff=vue
