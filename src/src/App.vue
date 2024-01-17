@@ -14,6 +14,10 @@
       </nav>
     </div>
   </header>
-
-  <RouterView />
+  <main>
+    <RouterView />
+  </main>
+  <footer>
+    
+  </footer>
 </template>
